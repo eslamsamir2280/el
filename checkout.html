@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styl.css">
+    <link rel="stylesheet" href="./css/tom-select.default.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>دار العدالة للنشر والتوزيع</title>
+</head>
+
+<body>
+    <span class='bx bxs-chevron-up up'></span>
+    <a href="./contact.html"><img src="./images/fb-messenger-logo.svg" alt="" class="msg"></a>
+    <div class="header" id="header">
+        <div class="container">
+            <div class="logo-div">
+                <img src="./images/لوجو_العدالة-removebg.png" alt="logo">
+                <div class="search-box">
+                    <i class="uil uil-search"></i>
+                    <input type="text" placeholder="ابحث هنا">
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./index.html">الصفحة الرئيسية</a></li>
+                <li><a href="#">الإصدارات</a></li>
+                <li><a href="#">المؤلفون</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="./contact.html">تواصل معانا</a></li>
+            </ul>
+            <ul class="icons">
+                <a href="#"><img src="./images/shopping-bag.svg" alt="cart"></a>
+                <a href="./log_in.html" class="log"><img src="./images/login.svg" alt="log-in"></a>
+                <a href="./track.html"><img src="./images/truck.svg" alt="track"></a>
+                <img class="menu" src="./images/bars (1).svg" alt="menu">
+            </ul>
+        </div>
+    </div>
+    <div class="header-mob" id="header">
+        <div class="container">
+            <img class="menu" id="menubtn" src="./images/bars (1).svg" alt="menu">
+            </a>
+            <div class="logo-div">
+                <img src="./images/لوجو_العدالة-removebg.png" alt="logo">
+            </div>
+            <ul class="icons">
+                <a href="#"><img src="./images/shopping-bag.svg" alt="cart"></a>
+            </ul>
+            <ul class="side-nav" id="sidenav">
+                <div class="search-box">
+                    <i class="uil uil-search"></i>
+                    <input type="text" placeholder="ابحث هنا">
+                </div>
+                <hr>
+                <li><a href="./index.html">الصفحة الرئيسية</a></li>
+                <hr>
+                <li><a href="#">الإصدارات</a></li>
+                <hr>
+                <li><a href="#">المؤلفون</a></li>
+                <hr>
+                <li><a href="#">من نحن</a></li>
+                <hr>
+                <li><a href="./track.html">تتبع الطلب</a></li>
+                <hr>
+                <li><a href="./contact.html">تواصل معانا</a></li>
+                <hr>
+                <li><a href="./log_in.html">تسجيل الدخول</a></li>
+                <hr>
+                <ul class="social-icon">
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-whatsapp"></i></a>
+                </ul>
+            </ul>
+        </div>
+    </div>
+    <div class="main-checkout">
+        <div class="container">
+            <div class="checkout">
+                <div class="chech-flex">
+                    <fieldset class="ship-info">
+                        <legend>تفاصيل الشحن</legend>
+                        <div class="name">
+                            <div class="first">
+                                <label for="firstname">الأسم الأول</label>
+                                <input type="text" id="firstname">
+                            </div>
+                            <div class="last">
+                                <label for="lastname">الأسم الأخير</label>
+                                <input type="text" id="lastname">
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="country">
+                                <div class="p-4">
+                                    <label for="select-beast-empty">الدولة</label>
+                                    <select id="select-beast-empty" class="select" data-placeholder="اختر الدولة"
+                                        autocomplete="on">
+                                        <option value="">مصر</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="gov">
+                                <div class="p-4">
+                                    <label for="slect-gov">المحافظة</label>
+                                    <select id="select-gov" class="select" data-placeholder="اختر المحافظة"
+                                        autocomplete="on">
+                                        <option value="">أختر المحافظة ...</option>
+                                        <option>القاهرة</خ>
+                                        <option>الاسكندرية</خ>
+                                        <option>الجيزة</خ>
+                                        <option>القليوبية</خ>
+                                        <option>الغربية</خ>
+                                        <option>الشرقية</خ>
+                                        <option>الدقهلية</خ>
+                                        <option>كفر الشيخ</خ>
+                                        <option>البحيرة</خ>
+                                        <option>بورسعيد</خ>
+                                        <option>الإسماعيلية</خ>
+                                        <option>السويس</خ>
+                                        <option>بني سويف</خ>
+                                        <option>قنا</خ>
+                                        <option>المنيا</خ>
+                                        <option>اسوان</خ>
+                                        <option>الأقصر</خ>
+                                        <option>أسيوط</خ>
+                                        <option>سوهاج</خ>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="address-full">
+                                <label for="full-address">العنوان</label>
+                                <input type="text" id="full-address">
+                            </div>
+                            <div class="phone-number">
+                                <div class="phone-n-1">
+                                    <label for="phone-n-1">رقم الهاتف</label>
+                                    <input type="text" id="phone-n-1">
+                                </div>
+                                <div class="phone-n-2">
+                                    <label for="phone-n-2">رقم هاتف اخر</label>
+                                    <input type="text" id="phone-n-2">
+                                </div>
+                                <div class="text">
+                                    <img src="./images/your-location.png" alt="">
+                                    <p>بناء علي موقعك الحالي، سيتم توصيل طلبك خلال الفترة ما بين يومين الي 5 ايام عمل.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="order-info">
+                        <legend>
+                            <p>طلبك</p>
+                            <a href="./cart.html">تعديل الطلب</a>
+                        </legend>
+                        <div class="order-item">
+                            <div class="p-box">
+                                <div class="p-box-t">
+                                    <h3 class="book-title">موسوعة المشكلات العملية في قوانين الأحوال الشخصية</h3>
+                                </div>
+                                <div class="p-box-b">
+                                    <h3 class="book-price">750 <span>ج.م</span></h3>
+                                    <div class="qty-flex">
+                                        <p class="qty">الكمية :</p>
+                                        <input type="number" value="1" min="1" disabled>
+
+                                    </div>
+                                </div>
+                                <div class="p-box-t">
+                                    <h3 class="book-title">موسوعة المشكلات العملية في قوانين الأحوال الشخصية</h3>
+                                </div>
+                                <div class="p-box-b">
+                                    <h3 class="book-price">750 <span>ج.م</span></h3>
+                                    <div class="qty-flex">
+                                        <p class="qty">الكمية :</p>
+                                        <input type="number" value="1" min="1" disabled>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coupon">
+                                <input type="text" placeholder="أدخل كود الخصم">
+                                <a href="#"><button>تطبيق</button></a>
+                            </div>
+                            <dl class="check-info">
+                                <div class="dl-flex">
+                                    <dt class="dt-top top-right">المجموع</dt>
+                                    <dd class="dd-top top-left">1500 <span>ج.م</span></dd>
+                                </div>
+                                <div class="dl-flex">
+                                    <dt class="dt-top">مصاريف الشحن</dt>
+                                    <dd class="dd-top">40 <span>ج.م</span></dd>
+                                </div>
+                                <div class="dl-flex">
+                                    <dt class="dt-top">خصم الكوبون</dt>
+                                    <dd class="dd-top">40 <span>ج.م</span></dd>
+                                </div>
+                                <div class="dl-flex">
+                                    <dt class="dt-top total right">الإجمالي</dt>
+                                    <dd class="dd-top total left">1500 <span>ج.م</span></dd>
+                                </div>
+                            </dl>
+                    </fieldset>
+                </div>
+                <div class="pay-flex">
+                    <fieldset class="pay">
+                        <legend>طريقة الدفع</legend>
+                        <div class="payment">
+                            <div class="payment-flex-1">
+                                <label for="visa">بطاقة الائتمان</label>
+                                <input type="radio" name="pay" id="visa">
+                            </div>
+                            <div class="payment-flex-2">
+                                <img src="./images/payment.svg" alt="" class="pd">
+                                <img src="./images/payment (1).svg" alt="">
+                            </div>
+                        </div>
+                        <div class="payment py-2">
+                            <div class="payment-flex-1">
+                                <label for="cash">الدفع عن الإستلام</label>
+                                <input type="radio" name="pay" id="cash">
+                            </div>
+                            <div class="payment-flex-2">
+                                <img src="./images/cash-on-delivery (1).png" alt="" class="pd">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="btn-sub">
+                    <a href="#"><button>انهاء الطلب</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-flex">
+                <div class="box">
+                    <h3>أهم الروابط</h3>
+                    <a href="./index.html">الصفحة الرئيسية</a>
+                    <br>
+                    <a href="#">الإصدارات</a>
+                    <br>
+                    <a href="#">من نحن</a>
+                </div>
+                <div class="box">
+                    <h3>تواصل معانا</h3>
+                    <a href="#">eladalahsoft@yahoo.com</a>
+                    <br>
+                    <a href="#">+2001021291063</a>
+                </div>
+                <div class="box">
+                    <img class="logo-footer" src="./images/لوجو_العدالة-removebg-preview.png" alt="">
+                    <h3>تابعنا عبر</h3>
+                    <p>أبقي دائماً علي التواصل معنا ومعرفة آخر المستجدات والأنشطة الخاصة بنا واخر الاخبار والاحداث</p>
+                    <div class="social">
+                        <a href="#"><i class="uil uil-whatsapp"></i></a>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                        <a href="#"><i class="uil uil-instagram"></i></a>
+                        <a href="#"><i class="uil uil-envelopes"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hoqoq">
+            <div class="container">
+                <p>made with ❤ by EAsoft</p>
+                <p>جميع حقوق النشر محفوظة 2022 © العدالة للنشر</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/tom-select.complete.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
